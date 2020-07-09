@@ -8,13 +8,16 @@
 
 //import Foundation
 import SwiftUI
-
+//This model view (VM)
 //1:15-closure
 
-class EmojiMemoryGame {
+class EmojiMemoryGame: ObservableObject {
     //Todos podem ver mas só a classe pode modificar
-    private var model: MemoryGame<String> = EmojiMemoryGame.createMemoryGame()
+    @Published private var model: MemoryGame<String> = EmojiMemoryGame.createMemoryGame()
     
+    //30 min - Lecture 3
+    // para não ter que utilizar
+    //objectWillChange.send(), em todos os lugares onde muda o estado (foi colocar @Published add funcionalidade)
     
     //1:22
     static func createMemoryGame() -> MemoryGame<String> {
@@ -23,6 +26,9 @@ class EmojiMemoryGame {
             return emojis[pairIndex]
         }
     }
+    
+//    só para mostrar como funciona
+//    var objectWillChange: ObservableObjectPublisher
     
     // Acesso ao modelo
     // MARK: - Access to the Model
@@ -33,6 +39,7 @@ class EmojiMemoryGame {
     // MARK: - Intent(s)
     // funções que podem ser acessadas pelo mundo exterior
     func choose(card: MemoryGame<String>.Card) {
+//        objectWillChange.send()
         model.choose(card: card)
     }
 }
