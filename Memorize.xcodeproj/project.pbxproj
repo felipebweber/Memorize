@@ -10,6 +10,7 @@
 		558546B624B66B1B006FD8FF /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558546B524B66B1B006FD8FF /* MemoryGame.swift */; };
 		558546B824B66F61006FD8FF /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558546B724B66F61006FD8FF /* EmojiMemoryGame.swift */; };
 		55935E3424BDD78B00F4F85A /* Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55935E3324BDD78B00F4F85A /* Pie.swift */; };
+		55935E3624BDEF9600F4F85A /* Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55935E3524BDEF9600F4F85A /* Cardify.swift */; };
 		55BBEA7724BC7C64006D7705 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BBEA7624BC7C64006D7705 /* Grid.swift */; };
 		55BBEA7924BC870D006D7705 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BBEA7824BC870D006D7705 /* GridLayout.swift */; };
 		55BBEA7B24BC8DA0006D7705 /* Array+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BBEA7A24BC8DA0006D7705 /* Array+Identifiable.swift */; };
@@ -26,6 +27,7 @@
 		558546B524B66B1B006FD8FF /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
 		558546B724B66F61006FD8FF /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
 		55935E3324BDD78B00F4F85A /* Pie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie.swift; sourceTree = "<group>"; };
+		55935E3524BDEF9600F4F85A /* Cardify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardify.swift; sourceTree = "<group>"; };
 		55BBEA7624BC7C64006D7705 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 		55BBEA7824BC870D006D7705 /* GridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
 		55BBEA7A24BC8DA0006D7705 /* Array+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Identifiable.swift"; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				55BFA27B24B3AB1500F1FF1D /* LaunchScreen.storyboard */,
 				55BFA27E24B3AB1500F1FF1D /* Info.plist */,
 				55BFA27824B3AB1500F1FF1D /* Preview Content */,
+				55935E3524BDEF9600F4F85A /* Cardify.swift */,
 			);
 			path = Memorize;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55935E3624BDEF9600F4F85A /* Cardify.swift in Sources */,
 				55935E3424BDD78B00F4F85A /* Pie.swift in Sources */,
 				55BFA27124B3AB1400F1FF1D /* AppDelegate.swift in Sources */,
 				55BFA27324B3AB1400F1FF1D /* SceneDelegate.swift in Sources */,
