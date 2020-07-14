@@ -20,7 +20,7 @@ class EmojiMemoryGame: ObservableObject {
     //objectWillChange.send(), em todos os lugares onde muda o estado (foi colocar @Published add funcionalidade)
     
     //1:22
-    static func createMemoryGame() -> MemoryGame<String> {
+    private static func createMemoryGame() -> MemoryGame<String> {
         let emojis: Array<String> = ["👻", "🎃", "🕷"]
         return MemoryGame<String>(numberOfPairsOfCards: emojis.count) { pairIndex in
             return emojis[pairIndex]
