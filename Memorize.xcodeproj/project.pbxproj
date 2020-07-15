@@ -80,13 +80,13 @@
 				55BBEA7624BC7C64006D7705 /* Grid.swift */,
 				55BBEA7824BC870D006D7705 /* GridLayout.swift */,
 				55935E3324BDD78B00F4F85A /* Pie.swift */,
+				55935E3524BDEF9600F4F85A /* Cardify.swift */,
 				55BBEA7A24BC8DA0006D7705 /* Array+Identifiable.swift */,
 				55BBEA7C24BCB150006D7705 /* Array+Only.swift */,
 				55BFA27624B3AB1500F1FF1D /* Assets.xcassets */,
 				55BFA27B24B3AB1500F1FF1D /* LaunchScreen.storyboard */,
 				55BFA27E24B3AB1500F1FF1D /* Info.plist */,
 				55BFA27824B3AB1500F1FF1D /* Preview Content */,
-				55935E3524BDEF9600F4F85A /* Cardify.swift */,
 			);
 			path = Memorize;
 			sourceTree = "<group>";
